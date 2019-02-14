@@ -1,0 +1,25 @@
+#content {
+	width: 294px;
+	margin: auto;
+	margin-top: 150px;
+}
+
+#group {
+	box-sizing: border-box;
+	width: 216px;
+	float: left;
+	height: 28px;
+	margin-right: 2px;
+}
+
+#start {
+	box-sizing: border-box;
+	display: block;
+	width: 75px;
+	height: 28px;
+}
+
+pre {
+	background-color: #cccccc;
+	padding: 8px;
+}

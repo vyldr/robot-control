@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="input.js" defer></script>
+	<script src="websocket.js" defer></script>
+	<title>Robot Control</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<form id="content" onsubmit="setup()">
+		<input type="text" name="group" id="group" placeholder="Name of the device to control" autofocus>
+		<button type="submit" id="start" onclick="setup(); return false;">Start</button>
+		<br>
+		<code><pre id="display"></pre></code>
+	</form>
+</body>
+</html>
